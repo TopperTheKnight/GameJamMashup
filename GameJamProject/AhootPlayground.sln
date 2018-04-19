@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhootPlayground", "AhootPlayground.csproj", "{2F1EDC73-C9F2-B58F-6337-16BD3557F063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhootPlayground.Editor", "AhootPlayground.Editor.csproj", "{FB94A614-D12D-0405-4A3D-918102C3F051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F1EDC73-C9F2-B58F-6337-16BD3557F063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1EDC73-C9F2-B58F-6337-16BD3557F063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1EDC73-C9F2-B58F-6337-16BD3557F063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1EDC73-C9F2-B58F-6337-16BD3557F063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB94A614-D12D-0405-4A3D-918102C3F051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB94A614-D12D-0405-4A3D-918102C3F051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB94A614-D12D-0405-4A3D-918102C3F051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB94A614-D12D-0405-4A3D-918102C3F051}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
