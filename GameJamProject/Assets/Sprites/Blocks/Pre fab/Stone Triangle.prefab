@@ -22,8 +22,14 @@ GameObject:
   - component: {fileID: 212155379588306332}
   - component: {fileID: 61346395831271532}
   - component: {fileID: 50300857954521048}
+  - component: {fileID: 114667482238251266}
+  - component: {fileID: 114531996170842218}
+  - component: {fileID: 114248862094580008}
+  - component: {fileID: 114657986769629014}
+  - component: {fileID: 114913659942862148}
+  - component: {fileID: 114049563004888242}
   m_Layer: 0
-  m_Name: elementStone054
+  m_Name: Stone Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,6 +93,106 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.69, y: 0.69}
   m_EdgeRadius: 0
+--- !u!114 &114049563004888242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746173403973864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477926c4ee648ce4e8d90c8cbee4dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 1746173403973864}
+  deathEffect: {fileID: 0}
+--- !u!114 &114248862094580008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746173403973864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114657986769629014}
+  - {fileID: 114913659942862148}
+  - {fileID: 114049563004888242}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Bullet
+--- !u!114 &114531996170842218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746173403973864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d0f9d481fa004e93342cacc66a0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: StoneTriLife
+  amount: 3
+--- !u!114 &114657986769629014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746173403973864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f5eaf0df1f36d489739d1597c67c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: StoneTriLife
+  amountToChange: -1
+  changeToSpecificAmount: 0
+--- !u!114 &114667482238251266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746173403973864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8371861a10b6841afa009d3125ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114531996170842218}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+--- !u!114 &114913659942862148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746173403973864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5193f6ce2b478c40b56728140b3cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: StoneTriLife
+  amountToCheck: 0
+  mathOperator: 3
 --- !u!212 &212155379588306332
 SpriteRenderer:
   m_ObjectHideFlags: 1

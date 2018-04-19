@@ -22,6 +22,12 @@ GameObject:
   - component: {fileID: 212298604246632416}
   - component: {fileID: 50056796520150128}
   - component: {fileID: 61832735031987858}
+  - component: {fileID: 114129157578894298}
+  - component: {fileID: 114336905007507358}
+  - component: {fileID: 114584110153592022}
+  - component: {fileID: 114410376353014890}
+  - component: {fileID: 114893833848508698}
+  - component: {fileID: 114863496599839956}
   m_Layer: 0
   m_Name: elementExplosive018
   m_TagString: Untagged
@@ -87,6 +93,106 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.4}
   m_EdgeRadius: 0
+--- !u!114 &114129157578894298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564497459677628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8371861a10b6841afa009d3125ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114336905007507358}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+--- !u!114 &114336905007507358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564497459677628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d0f9d481fa004e93342cacc66a0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: elementExplosive018Life
+  amount: 2
+--- !u!114 &114410376353014890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564497459677628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f5eaf0df1f36d489739d1597c67c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: elementExplosive018Life
+  amountToChange: -1
+  changeToSpecificAmount: 0
+--- !u!114 &114584110153592022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564497459677628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114410376353014890}
+  - {fileID: 114893833848508698}
+  - {fileID: 114863496599839956}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Bullet
+--- !u!114 &114863496599839956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564497459677628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477926c4ee648ce4e8d90c8cbee4dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 1564497459677628}
+  deathEffect: {fileID: 0}
+--- !u!114 &114893833848508698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564497459677628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5193f6ce2b478c40b56728140b3cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: elementExplosive018Life
+  amountToCheck: 0
+  mathOperator: 3
 --- !u!212 &212298604246632416
 SpriteRenderer:
   m_ObjectHideFlags: 1

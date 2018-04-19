@@ -22,8 +22,14 @@ GameObject:
   - component: {fileID: 212597162441336366}
   - component: {fileID: 61009206828236902}
   - component: {fileID: 50736594578824598}
+  - component: {fileID: 114163984043999032}
+  - component: {fileID: 114491205650452738}
+  - component: {fileID: 114259935415499588}
+  - component: {fileID: 114429567764923514}
+  - component: {fileID: 114981962897433940}
+  - component: {fileID: 114923662021613388}
   m_Layer: 0
-  m_Name: elementMetal013 (1)
+  m_Name: Metal Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,6 +93,106 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.2, y: 0.7}
   m_EdgeRadius: 0
+--- !u!114 &114163984043999032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338057490987784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8371861a10b6841afa009d3125ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114491205650452738}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+--- !u!114 &114259935415499588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338057490987784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114429567764923514}
+  - {fileID: 114981962897433940}
+  - {fileID: 114923662021613388}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Bullet
+--- !u!114 &114429567764923514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338057490987784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f5eaf0df1f36d489739d1597c67c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: MetalBeamLife
+  amountToChange: -1
+  changeToSpecificAmount: 0
+--- !u!114 &114491205650452738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338057490987784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d0f9d481fa004e93342cacc66a0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: MetalBeamLife
+  amount: 4
+--- !u!114 &114923662021613388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338057490987784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477926c4ee648ce4e8d90c8cbee4dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 1338057490987784}
+  deathEffect: {fileID: 0}
+--- !u!114 &114981962897433940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338057490987784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5193f6ce2b478c40b56728140b3cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: MetalBeamLife
+  amountToCheck: 0
+  mathOperator: 3
 --- !u!212 &212597162441336366
 SpriteRenderer:
   m_ObjectHideFlags: 1

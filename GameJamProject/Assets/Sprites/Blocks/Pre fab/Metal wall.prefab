@@ -22,8 +22,14 @@ GameObject:
   - component: {fileID: 212864025402037544}
   - component: {fileID: 61151364212047900}
   - component: {fileID: 50158118543360670}
+  - component: {fileID: 114954857462253994}
+  - component: {fileID: 114443251790774780}
+  - component: {fileID: 114526041964748864}
+  - component: {fileID: 114717152242403648}
+  - component: {fileID: 114433281570057750}
+  - component: {fileID: 114623020613947092}
   m_Layer: 0
-  m_Name: elementMetal020
+  m_Name: Metal wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,6 +93,106 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 2.2}
   m_EdgeRadius: 0
+--- !u!114 &114433281570057750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405613974444974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5193f6ce2b478c40b56728140b3cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: MetalWallLife
+  amountToCheck: 0
+  mathOperator: 3
+--- !u!114 &114443251790774780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405613974444974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d0f9d481fa004e93342cacc66a0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: MetalWallLife
+  amount: 4
+--- !u!114 &114526041964748864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405613974444974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114717152242403648}
+  - {fileID: 114433281570057750}
+  - {fileID: 114623020613947092}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Bullet
+--- !u!114 &114623020613947092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405613974444974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477926c4ee648ce4e8d90c8cbee4dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 1405613974444974}
+  deathEffect: {fileID: 0}
+--- !u!114 &114717152242403648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405613974444974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f5eaf0df1f36d489739d1597c67c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: MetalWallLife
+  amountToChange: -1
+  changeToSpecificAmount: 0
+--- !u!114 &114954857462253994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405613974444974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8371861a10b6841afa009d3125ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114443251790774780}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
 --- !u!212 &212864025402037544
 SpriteRenderer:
   m_ObjectHideFlags: 1

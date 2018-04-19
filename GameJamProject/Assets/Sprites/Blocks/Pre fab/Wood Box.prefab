@@ -22,8 +22,14 @@ GameObject:
   - component: {fileID: 212736697550660164}
   - component: {fileID: 50016214445796180}
   - component: {fileID: 61999651884152332}
+  - component: {fileID: 114293039230812172}
+  - component: {fileID: 114021064064927914}
+  - component: {fileID: 114966953407148790}
+  - component: {fileID: 114674021049652678}
+  - component: {fileID: 114362005630918498}
+  - component: {fileID: 114169800054737976}
   m_Layer: 0
-  m_Name: boxAlt (4)
+  m_Name: Wood Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,6 +93,106 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.69, y: 0.69}
   m_EdgeRadius: 0
+--- !u!114 &114021064064927914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278002369834630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d0f9d481fa004e93342cacc66a0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: WoodLife
+  amount: 2
+--- !u!114 &114169800054737976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278002369834630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477926c4ee648ce4e8d90c8cbee4dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 1278002369834630}
+  deathEffect: {fileID: 0}
+--- !u!114 &114293039230812172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278002369834630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8371861a10b6841afa009d3125ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114021064064927914}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+--- !u!114 &114362005630918498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278002369834630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5193f6ce2b478c40b56728140b3cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: WoodLife
+  amountToCheck: 0
+  mathOperator: 3
+--- !u!114 &114674021049652678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278002369834630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f5eaf0df1f36d489739d1597c67c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: WoodLife
+  amountToChange: -1
+  changeToSpecificAmount: 0
+--- !u!114 &114966953407148790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278002369834630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 114674021049652678}
+  - {fileID: 114362005630918498}
+  - {fileID: 114169800054737976}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Bullet
 --- !u!212 &212736697550660164
 SpriteRenderer:
   m_ObjectHideFlags: 1
