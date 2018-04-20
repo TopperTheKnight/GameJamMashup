@@ -3,7 +3,58 @@ guid: b064248618e0b974db773ddabe31870c
 timeCreated: 1524208884
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Armature_animtion0_00
+    21300002: Armature_animtion0_01
+    21300004: Armature_animtion0_02
+    21300006: Armature_animtion0_03
+    21300008: Armature_animtion0_04
+    21300010: Armature_animtion0_05
+    21300012: Armature_animtion0_06
+    21300014: Armature_animtion0_07
+    21300016: Armature_animtion0_08
+    21300018: Armature_animtion0_09
+    21300020: Armature_animtion0_10
+    21300022: Armature_animtion0_11
+    21300024: Armature_animtion0_12
+    21300026: Armature_animtion0_13
+    21300028: Armature_animtion0_14
+    21300030: Armature_animtion0_15
+    21300032: Armature_animtion0_16
+    21300034: Armature_animtion0_17
+    21300036: Armature_animtion0_18
+    21300038: Armature_animtion0_19
+    21300040: Armature_animtion0_20
+    21300042: Armature_animtion0_21
+    21300044: Armature_animtion0_22
+    21300046: Armature_animtion0_23
+    21300048: Armature_animtion0_24
+    21300050: Armature_animtion0_25
+    21300052: Armature_animtion0_26
+    21300054: Armature_animtion0_27
+    21300056: Armature_animtion0_28
+    21300058: Armature_animtion0_29
+    21300060: Armature_animtion0_30
+    21300062: Armature_animtion0_31
+    21300064: Armature_animtion0_32
+    21300066: Armature_animtion0_33
+    21300068: Armature_animtion0_34
+    21300070: Armature_animtion0_35
+    21300072: Armature_animtion0_36
+    21300074: Armature_animtion0_37
+    21300076: Armature_animtion0_38
+    21300078: Armature_animtion0_39
+    21300080: Armature_animtion0_40
+    21300082: Armature_animtion0_41
+    21300084: Armature_animtion0_42
+    21300086: Armature_animtion0_43
+    21300088: Armature_animtion0_44
+    21300090: Armature_animtion0_45
+    21300092: Armature_animtion0_46
+    21300094: Armature_animtion0_47
+    21300096: Armature_animtion0_48
+    21300098: Armature_animtion0_49
+    21300100: Armature_animtion0_50
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +91,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +120,721 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Armature_animtion0_00
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 3583
+        width: 392
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49362245, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3070
+        width: 393
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4923664, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_02
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 3583
+        width: 393
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4923664, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_03
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3583
+        width: 392
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_04
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 3069
+        width: 390
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49615383, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_05
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2046
+        width: 389
+        height: 512
+      alignment: 9
+      pivot: {x: 0.51028275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_06
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3583
+        width: 395
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4949367, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3584
+        width: 396
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49621212, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_08
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3069
+        width: 392
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2556
+        width: 391
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4948849, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2556
+        width: 390
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49358973, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_11
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 3069
+        width: 390
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49358973, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_12
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2045
+        width: 389
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49485862, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_13
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1531
+        width: 387
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49224806, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_14
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3069
+        width: 391
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49232736, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_15
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2558
+        width: 390
+        height: 509
+      alignment: 9
+      pivot: {x: 0.49102563, y: 0.502947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2043
+        width: 385
+        height: 511
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_17
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2560
+        width: 390
+        height: 507
+      alignment: 9
+      pivot: {x: 0.49358973, y: 0.504931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2557
+        width: 390
+        height: 510
+      alignment: 9
+      pivot: {x: 0.49102563, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_19
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1534
+        width: 388
+        height: 510
+      alignment: 9
+      pivot: {x: 0.49097937, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1020
+        width: 383
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49738905, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1533
+        width: 385
+        height: 508
+      alignment: 9
+      pivot: {x: 0.4974026, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_22
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1021
+        width: 386
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49870467, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2044
+        width: 385
+        height: 510
+      alignment: 9
+      pivot: {x: 0.4974026, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_24
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1532
+        width: 385
+        height: 510
+      alignment: 9
+      pivot: {x: 0.4974026, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2044
+        width: 388
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49097937, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_26
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1532
+        width: 385
+        height: 510
+      alignment: 9
+      pivot: {x: 0.4974026, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2044
+        width: 385
+        height: 510
+      alignment: 9
+      pivot: {x: 0.4974026, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_28
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1021
+        width: 386
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49870467, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1533
+        width: 385
+        height: 508
+      alignment: 9
+      pivot: {x: 0.4974026, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1020
+        width: 383
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49738905, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_31
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1534
+        width: 388
+        height: 510
+      alignment: 9
+      pivot: {x: 0.49097937, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_32
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2557
+        width: 390
+        height: 510
+      alignment: 9
+      pivot: {x: 0.49102563, y: 0.5019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_33
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2560
+        width: 390
+        height: 507
+      alignment: 9
+      pivot: {x: 0.49358973, y: 0.504931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2043
+        width: 385
+        height: 511
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_35
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2558
+        width: 390
+        height: 509
+      alignment: 9
+      pivot: {x: 0.49102563, y: 0.502947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_36
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3069
+        width: 391
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49232736, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_37
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1531
+        width: 387
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49224806, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_38
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2045
+        width: 389
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49485862, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_39
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 3069
+        width: 390
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49358973, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_40
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2556
+        width: 390
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49358973, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2556
+        width: 391
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4948849, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_42
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3069
+        width: 392
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3584
+        width: 396
+        height: 511
+      alignment: 9
+      pivot: {x: 0.49621212, y: 0.50097847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_44
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3583
+        width: 395
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4949367, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_45
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2046
+        width: 389
+        height: 512
+      alignment: 9
+      pivot: {x: 0.51028275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_46
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 3069
+        width: 390
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49615383, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_47
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3583
+        width: 392
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_48
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 3583
+        width: 393
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4923664, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3070
+        width: 393
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4923664, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Armature_animtion0_50
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 3583
+        width: 392
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49362245, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
     physicsShape: []
   spritePackingTag: 

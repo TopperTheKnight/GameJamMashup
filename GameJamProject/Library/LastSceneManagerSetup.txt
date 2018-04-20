@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Example Games/Lander/Lander level 1.unity
+- path: Assets/Scenes/StartScreen.unity
   isLoaded: 1
   isActive: 1

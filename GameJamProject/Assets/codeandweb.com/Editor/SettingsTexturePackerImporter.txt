@@ -1,9 +1,36 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/AnimatedCharacters/El Rancho Unity.tpsheet
+- Assets/AnimatedCharacters/Kim Jong un Unity.tpsheet
+- Assets/AnimatedCharacters/putin unity 1.tpsheet
+- Assets/AnimatedCharacters/putin unity.tpsheet
+- Assets/AnimatedCharacters/Trump unity.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/Unity texture/El Rancho Unity.tpsheet
+- Assets/Sprites/Unity texture/Kim Jong un Unity.tpsheet
+- Assets/Sprites/Unity texture/putin unity.tpsheet
+- Assets/Sprites/Unity texture/Trump unity.tpsheet
 textureFileNames:
+- Assets/AnimatedCharacters/El Rancho Unity.png
+- Assets/AnimatedCharacters/Kim Jong un Unity.png
+- Assets/AnimatedCharacters/putin unity.png
+- Assets/AnimatedCharacters/putin unity.png
+- Assets/AnimatedCharacters/Trump unity.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/Unity texture/El Rancho Unity.png
+- Assets/Sprites/Unity texture/Kim Jong un Unity.png
+- Assets/Sprites/Unity texture/putin unity.png
+- Assets/Sprites/Unity texture/Trump unity.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
 enableDebugOutput: 0

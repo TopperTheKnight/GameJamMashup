@@ -262,6 +262,7 @@
     <Compile Include="Assets\Scripts\Attributes\RicochetAttribute.cs" />
     <Compile Include="Assets\Scripts\Attributes\SplitScreenAttribute.cs" />
     <Compile Include="Assets\Scripts\Attributes\VariableToTextAttribute.cs" />
+    <Compile Include="Assets\Scripts\AudioClips.cs" />
     <Compile Include="Assets\Scripts\Conditions\ConditionArea.cs" />
     <Compile Include="Assets\Scripts\Conditions\ConditionCollision.cs" />
     <Compile Include="Assets\Scripts\Conditions\ConditionCountdown.cs" />
