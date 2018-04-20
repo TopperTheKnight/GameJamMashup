@@ -788,8 +788,8 @@ MonoBehaviour:
   mainCamera: {fileID: 1919488420}
   camPositionPlayerOne: {fileID: 1584040050}
   camPositionPlayerTwo: {fileID: 856828041}
-  playerOnePos: {fileID: 0}
-  playerTwoPos: {fileID: 0}
+  playerOnePos: {fileID: 956617850}
+  playerTwoPos: {fileID: 158128586}
   PlayerText: {fileID: 117749790}
   AmmoText: {fileID: 550978697}
   TurnCounter: {fileID: 1619501707}

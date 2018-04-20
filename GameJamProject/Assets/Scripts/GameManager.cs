@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+public enum Character { Trump, Kim, Rancho }
 public struct PlayerData
 {
-    public enum Character { Trump, Kim, Rancho }
+    
     public string playerName;
     public int playerAmmo;
     public Character pick;
