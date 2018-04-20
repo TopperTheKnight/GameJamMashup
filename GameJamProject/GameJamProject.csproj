@@ -306,6 +306,8 @@
     <None Include="Assets\Sprites\HUD\hud_spritesheet.xml" />
     <None Include="Assets\Sprites\Items\items_spritesheet.xml" />
     <None Include="Assets\Sprites\Tiles\tiles_spritesheet.xml" />
+    <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+    <None Include="Assets\codeandweb.com\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

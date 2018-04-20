@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61009206828236902}
   - component: {fileID: 50736594578824598}
   m_Layer: 0
-  m_Name: elementMetal013 (1)
+  m_Name: Metal Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

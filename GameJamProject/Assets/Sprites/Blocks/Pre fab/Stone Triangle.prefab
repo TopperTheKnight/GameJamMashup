@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61346395831271532}
   - component: {fileID: 50300857954521048}
   m_Layer: 0
-  m_Name: elementStone054
+  m_Name: Stone Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50016214445796180}
   - component: {fileID: 61999651884152332}
   m_Layer: 0
-  m_Name: boxAlt (4)
+  m_Name: Wood Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

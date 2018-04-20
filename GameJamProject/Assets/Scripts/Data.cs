@@ -11,9 +11,15 @@ public class Data : MonoBehaviour {
     PlayerData player2;
 
     [SerializeField]
+    GameObject[] forts;
+
+    [SerializeField]
     InputField player1NameField;
     [SerializeField]
     InputField player2NameField;
+
+    string player1Choise;
+    string player2Choise;
 
     private void Awake()
     {
@@ -25,6 +31,21 @@ public class Data : MonoBehaviour {
     public void SetPlayerOneType(string name)
     {
         characterDictionary.TryGetValue(name, out player1.pick);
+
+        switch (name)
+        {
+            case "Putin":
+                break;
+            case "Kim":
+                break;
+            case "Trump":
+                break;
+            case "Rancho":
+                break;
+
+            default:
+                break;
+        }
     }
 
     public void SetPlayerTwoType(string name)
@@ -44,7 +65,13 @@ public class Data : MonoBehaviour {
         player1.playerAmmo = 15;
         player2.playerAmmo = 15;
 
-        SceneManager.LoadScene("Topper");
+
+        if(player1.pick != null && player1.playerName != null && player1.fort != null){
+            if (player2.pick != null && player2.playerName != null && player2.fort != null) {
+                SceneManager.LoadScene("Topper");
+            }
+        }
+        
     }
 
 }

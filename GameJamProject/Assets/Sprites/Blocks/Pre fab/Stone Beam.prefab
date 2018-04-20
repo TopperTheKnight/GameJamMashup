@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50912940708209682}
   - component: {fileID: 61704557518657832}
   m_Layer: 0
-  m_Name: elementStone013
+  m_Name: Stone Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

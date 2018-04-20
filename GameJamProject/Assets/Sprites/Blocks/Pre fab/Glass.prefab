@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61921597969447474}
   - component: {fileID: 50741771987420272}
   m_Layer: 0
-  m_Name: elementGlass012
+  m_Name: Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
